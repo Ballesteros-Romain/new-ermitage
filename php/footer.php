@@ -6,8 +6,8 @@
         <div>
             <p>Téléphone</p>
             <ul class="list-unstyled">
-                <li><a href="tel:0782332739"></a>07.82.33.27.39</li>
-                <li><a href="tel:0675468601"></a>06.75.46.86.01</li>
+                <li><a href="tel:+33782332739"></a>07.82.33.27.39</li>
+                <li><a href="tel:+33675468601"></a>06.75.46.86.01</li>
             </ul>
         </div>
         <div>

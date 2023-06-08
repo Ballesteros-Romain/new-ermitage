@@ -1,6 +1,6 @@
 <footer>
     <div>
-        <p>Le clos de l'ermitage : 745 chemin de la baracine 30 000 Nîmes.</p>
+        <p>Le clos de l'ermitage : <br> 745 chemin de la baracine 30 000 Nîmes.</p>
     </div>
     <div class="contact">
         <div>
@@ -11,13 +11,14 @@
             </ul>
         </div>
         <div>
-            <p>mail</p>
+            <p>Mail</p>
             <ul class="list-unstyled">
                 <li><a href="mailto:ballesteros.andre30@gmail.com">ballesteros.andre30@gmail.com</a></li>
             </ul>
         </div>
     </div>
 </footer>
+<script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,122 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kalam", arial;
+  overflow-x: hidden;
+}
+// ================================= NAVBAR =============================================
+nav {
+  margin-top: 10px;
+}
+
+.text-navbar {
+  font-size: 1.4rem;
+}
+// ======================================= MAIN ==========================================
+main > div > h1 {
+  font-size: 1.2rem;
+  margin-top: 50px;
+  text-align: center;
+}
+.photo-piscine {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+.mini-photos > img {
+  margin-top: 30px;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 990px) {
+  .mini-photos > img {
+    height: 250px;
+    width: 250px;
+  }
+}
+// ==================================== CAROUSEL ==========================================
+.carousel {
+  width: 90%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  & img {
+    border-radius: 5px;
+    width: 100%;
+  }
+  & p,
+  h5 {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 990px) {
+  .carousel img {
+    height: 100vh;
+  }
+}
+.carousel2 {
+  width: 90%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  & img {
+    border-radius: 5px;
+    width: 100%;
+    height: 250px;
+  }
+  & p,
+  h5 {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 990px) {
+  .carousel2 img {
+    height: 100vh;
+  }
+}
+.carousel3 {
+  width: 90%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  & img {
+    border-radius: 5px;
+    width: 100%;
+    height: 250px;
+  }
+  & p,
+  h5 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 990px) {
+  .carousel3 img {
+    height: 100vh;
+  }
+}
+.carousel4 {
+  width: 90%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  & img {
+    border-radius: 5px;
+    width: 100%;
+    height: 250px;
+  }
+  & p,
+  h5 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 990px) {
+  .carousel4 img {
+    height: 100vh;
+  }
+}

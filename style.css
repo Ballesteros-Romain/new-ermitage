@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav {
   margin-top: 10px;
 }
@@ -14,7 +18,12 @@ nav {
   font-size: 1.4rem;
 }
 
-main > div > h1 {
+ul a {
+  color: black;
+}
+
+main > div > h1,
+h3 {
   font-size: 1.2rem;
   margin-top: 50px;
   text-align: center;
@@ -39,6 +48,14 @@ main > div > h1 {
     width: 250px;
   }
 }
+.text p {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-justify: auto;
+  margin-top: 20px;
+  width: 80%;
+}
+
 .carousel {
   width: 90%;
   margin-left: 50%;
@@ -125,4 +142,50 @@ main > div > h1 {
   .carousel4 img {
     height: 100vh;
   }
+}
+.salon {
+  width: 90%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.salon img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.salon p {
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-justify: auto;
+  width: 80%;
+}
+
+@media screen and (min-width: 990px) {
+  .carousel4 img {
+    height: 100vh;
+  }
+}
+footer {
+  border-top: 5px ridge lightgray;
+  height: 200px;
+  font-size: 1.3rem;
+  background: gray;
+  color: white;
+  border-radius: 5px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer > div > p {
+  text-align: center;
+  margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */

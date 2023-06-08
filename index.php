@@ -9,6 +9,12 @@ Capacité :  8 personnes + BB Location : week-end, semaine, vacances</p>
     <div class="mini-photos d-flex justify-content-around">
     <img src="./PHOTOS/les moutons.jpg" alt="photo de moutons"><img src="./PHOTOS/piscine-fleur.jpg" alt="photos de piscine"><img src="./PHOTOS/panier-garni.jpg" alt="photo panier garni">
     </div>
+    <div class="text">
+        <h3>Un havre de paix dans un écrin de verdure</h3>
+        <p>La propriété s'étend sur un hectare , ceinturée de garrigue, avec moutons, poules et chien, sans aucune nuisance alentours.
+Nous sommes à 10 mn du centre de Nîmes, 2 km des commerces, 2 klm de la sortie d'autoroute, et 2 km de SMAC PALOMA (Scène de Musique Actelle), et bien sur à côté du Pont du Gard, de la Camargue et bien d'autres choses encore.....
+Maison de caractère de 160 m2, de plain pîed, mais sur 3 demi niveaux, et dépendances. ( double garage, mazet,, bergerie, poulailler).</p>
+    </div>
 
     <!-- =================================================== CAROUSEL =================================================== -->
 
@@ -174,7 +180,7 @@ Douche extérieure</p>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
+<div class="salon mt-5"><img src="PHOTOS/IMG_20211026_144847.jpg" alt="photo salon"><p>50 m 2 :L a pièce la plus fraîche de la maison car semi enterrée. Grande cheminée avec grill, télé grand écran 4K, DVD, Canal +,  plusieurs canapés, un grand bureau, WIFI.......</p></div>
 </main>
     
 

@@ -13,16 +13,16 @@
     <title>Le clos de l'ermitage</title>
     <link rel="icon" type="image/png" sizes="96x96" href="../PHOTOS/cigale-olive-removebg-preview.png">
     <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <header>
        <nav class="container-fluid">
         <ul class="list-unstyled d-flex justify-content-around" >
-            <li><img src="../PHOTOS/cigale-olive-removebg-preview.png" alt="logo-cigale" style="width:80px; heigth: 80px" class="logo-navbar"></li>
-            <li class="mt-4 text-navbar">acceuil</li>
-            <li class="mt-4 text-navbar">services</li>
-            <li class="mt-4 text-navbar">contact</li>
+            <li><a href="../index.php"><img src="../PHOTOS/cigale-olive-removebg-preview.png" alt="logo-cigale" style="width:80px; heigth: 80px" class="logo-navbar"></a></li>
+            <li class="mt-4 text-navbar"><a href="../index.php">acceuil</a></li>
+            <li class="mt-4 text-navbar"><a href="./php/service.php">services</a></li>
+            <li class="mt-4 text-navbar"><a href="/php/contact.php">contact</a></li>
         </ul>
        </nav>         
     </header>

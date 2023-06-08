@@ -5,6 +5,9 @@ body {
   font-family: "Kalam", arial;
   overflow-x: hidden;
 }
+a {
+  text-decoration: none;
+}
 // ================================= NAVBAR =============================================
 nav {
   margin-top: 10px;
@@ -13,8 +16,12 @@ nav {
 .text-navbar {
   font-size: 1.4rem;
 }
+ul a {
+  color: black;
+}
 // ======================================= MAIN ==========================================
-main > div > h1 {
+main > div > h1,
+h3 {
   font-size: 1.2rem;
   margin-top: 50px;
   text-align: center;
@@ -35,6 +42,13 @@ main > div > h1 {
     height: 250px;
     width: 250px;
   }
+}
+.text p {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-justify: auto;
+  margin-top: 20px;
+  width: 80%;
 }
 // ==================================== CAROUSEL ==========================================
 .carousel {
@@ -119,4 +133,49 @@ main > div > h1 {
   .carousel4 img {
     height: 100vh;
   }
+}
+.salon {
+  width: 90%;
+  margin-left: 50%;
+  //   height: 250px;
+  transform: translateX(-50%);
+  & img {
+    border-radius: 5px;
+    width: 100%;
+    // height: 250px;
+  }
+}
+.salon p {
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-justify: auto;
+  width: 80%;
+}
+@media screen and (min-width: 990px) {
+  .carousel4 img {
+    height: 100vh;
+  }
+}
+// ========================================== FOOTER ==============================================
+footer {
+  border-top: 5px ridge lightgray;
+  height: 200px;
+  font-size: 1.3rem;
+  background: gray;
+  color: white;
+  border-radius: 5px;
+  & a {
+    text-decoration: none;
+    color: white;
+  }
+}
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer > div > p {
+  text-align: center;
+  margin-top: 30px;
 }

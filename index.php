@@ -71,7 +71,7 @@ Douche extérieure</p>
       <img src="./PHOTOS/IMG_20190809_181432701.jpg" class="d-block w-100" alt="photo terasse">
       <div class="carousel-caption d-none d-md-block">
           <h5 class="text-light">Terasse Sud</h5>
-          <p class="text-light">STerrasse en rez de jardin : plus fraîche, et abritée du mistral, Espace repas 10 personnes, parasol.</p>
+          <p class="text-light">Terrasse en rez de jardin : plus fraîche, et abritée du mistral, Espace repas 10 personnes, parasol.</p>
       </div>
     </div>
     <div class="carousel-item">

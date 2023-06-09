@@ -11,7 +11,7 @@
 <div>
     <P>Marie s'occupera de préparer votre arrivé et vous acceuilleura avec la chaleur du sud.</P>
     <ul>
-        <li><a href="tel:+33664996504">06.64.99.65.04</a></li>
+    <li><a href="tel:+33664996504">06.64.99.65.04</a></li>
     </ul>
 </div>
 <div>
